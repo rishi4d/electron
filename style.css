@@ -29,21 +29,42 @@ body{
     position: absolute;
     z-index: 1;
     padding-right: 20%;
+    overflow: hidden;
 }
 
 .nav-link{
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     filter: brightness(80%);
     width: auto;
-    padding-right: 3%;
-    padding-left: 3%;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    overflow: hidden;
+
 }
+
 .nav-link:hover{
     font-weight: bolder;
-    color: #365dfc !important;
+    color: #4d70ff !important;
     filter: brightness(100%);
+}
+
+li{
+    display: inline-block;
+}
+
+li > a {
+    display: inline-block;
+}
+
+a::before{
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 
