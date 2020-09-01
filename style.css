@@ -36,12 +36,9 @@ body{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     filter: brightness(80%);
-<<<<<<< HEAD
     width: auto;
-=======
     padding-right: 3%;
     padding-left: 3%;
->>>>>>> 17ca6ac468a21f77b64e6e7694ef85a6cbfeaa30
 }
 .nav-link:hover{
     font-weight: bolder;
