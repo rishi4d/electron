@@ -1,4 +1,16 @@
+/*  Media Queries   */
 
+@media (min-width : 768px){
+    #topnav{
+        padding-right: 5%;
+    }
+}
+
+@media (min-width : 1366px){
+    #topnav{
+        padding-right: 15%;
+    }
+}
 
 
 body{
@@ -19,12 +31,18 @@ body{
 }
 
 .nav-link{
-    color: cyan;
-    font-size: 18px;
+    color: whitesmoke;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
-
-    
+    filter: brightness(80%);
+    width: auto;
 }
+.nav-link:hover{
+    font-weight: bolder;
+    color: #365dfc !important;
+    filter: brightness(100%);
+}
+
 
 #name{
     position: absolute;
@@ -43,5 +61,5 @@ body{
 #particles-js{
     height: 100%;
     width: 100%;
-    opacity: .65;
+    opacity: .7;
 }
